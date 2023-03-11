@@ -20,9 +20,9 @@ svc_model = Svc(model_path, config_path)
 infer_tool.mkdir(["raw", "results"])
 
 # 支持多个wav文件，放在raw文件夹下
-clean_names = ["1_信樂團 Shin Band _ 死了都要愛【歌詞】_(Vocals)"]
+clean_names = ["君の知らない物語-src"]
 trans = [-5]  # 音高调整，支持正负（半音）
-spk_list = ['NL']  # 每次同时合成多语者音色
+spk_list = ['yunhao']  # 每次同时合成多语者音色
 slice_db = -40  # 默认-40，嘈杂的音频可以-30，干声保留呼吸可以-50
 wav_format = 'flac'  # 音频输出格式
 
