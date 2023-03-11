@@ -1,0 +1,2 @@
+./dataset/32k/NL/NL_179.wav
+./dataset/32k/NL/NL_30.wav
